@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(143, 180, 249);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.task-list{
+    background-color: rgb(25, 134, 134);
+    height: 35%;
+    min-height: max-content;
+    width: 40%;
+    border-radius: 10px;
+    white-space: inherit;
+    padding: 10px;
+    
+}
+
+.task-list h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.task-list p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.add-task{
+    /* display:flex ;
+    align-items: center;
+    justify-content: center; */
+
+}
+.add-task input{
+  
+    font-size:xx-large;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 175px;
+    background-color: rgb(48, 205, 153);
+    text-decoration: none;
+    padding: 10px;
+    text-wrap: wrap;
+    width: 250px;
+    
+}
+
+.add-task{
+    background-color: rgb(48, 205, 153);
+    height: 35%;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+
+}
